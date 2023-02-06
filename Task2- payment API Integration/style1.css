@@ -1,0 +1,85 @@
+/*styling of donation form*/
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+   
+}
+body{
+	margin:0px;
+    height: 100vh;
+	overflow: hidden;
+	background-image:url(imgs/children.jpg);
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position: top center;
+	font-family:montserrat;
+}
+.sign-up-form{
+    width:450px;
+box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+background:#fff;
+padding:20px;
+margin:5% auto 0;
+text-align:center;
+border-radius: 35px; 
+opacity:0.8;
+}
+label.logo{
+    color:rgb(249, 246, 246);
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight:bold;
+}
+nav{
+    background-image: linear-gradient(#1d3d47, #2d91b0) ;
+    height:80px;
+    width:100%;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px, 13x;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background-color: #242e93;
+    transition: .5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+.btn{
+    color: #43bfe5;
+   
+}
+.sign-up-form h3{
+    font-style: italic;
+    font-size: 25px;
+}

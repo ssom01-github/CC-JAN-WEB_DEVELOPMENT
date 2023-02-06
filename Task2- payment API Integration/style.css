@@ -1,0 +1,71 @@
+/*styling of home page*/
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+    }
+    
+body{
+    background-image: url(https://media.istockphoto.com/id/1320051999/photo/modern-white-keyboard-wih-donate-button.jpg?s=2048x2048&w=is&k=20&c=qD3XRX-M68Prqg-oJr0wBBkqf9KkevCdc0opAc_z8z8=);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+label.logo{
+    color:rgb(249, 246, 246);
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight:bold;
+}
+nav{
+    background-color: rgb(66, 107, 210);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+   
+  
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px, 13x;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background-color: #0317f3;
+    transition: .5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+
+
+
+
+
