@@ -5,7 +5,7 @@ Portfolio website
 It is basically a website to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you
 # Tech tool used
 .HTML .CSS .Javascript. 
-# Tak2
+# Task2
 Payment Gateway page
 # Description
 It is basically a donation foundation for the poor child through which you can redirect to payment page.
